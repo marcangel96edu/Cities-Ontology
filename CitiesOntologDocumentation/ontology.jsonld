@@ -1,0 +1,4427 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid3"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid14"
+    }, {
+      "@id" : "_:genid12"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid100",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn"
+  } ]
+}, {
+  "@id" : "_:genid102",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ]
+}, {
+  "@id" : "_:genid104",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "_:genid106",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRestaurant"
+  } ]
+}, {
+  "@id" : "_:genid107",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid113"
+    }, {
+      "@id" : "_:genid111"
+    }, {
+      "@id" : "_:genid109"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid115"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid109",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#t"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn"
+  } ]
+}, {
+  "@id" : "_:genid111",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ]
+}, {
+  "@id" : "_:genid113",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#t"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"
+  } ]
+}, {
+  "@id" : "_:genid115",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#t"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasTransport"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "http://www.w3.org/2001/XMLSchema#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5.0"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.0"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid19"
+    }, {
+      "@id" : "_:genid17"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "http://www.w3.org/2001/XMLSchema#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.0"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid6"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "0"
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid9"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid77"
+    }, {
+      "@id" : "_:genid75"
+    }, {
+      "@id" : "_:genid73"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid79"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn"
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction"
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasAttraction"
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid86"
+    }, {
+      "@id" : "_:genid84"
+    }, {
+      "@id" : "_:genid82"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid88"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasEvent"
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid95"
+    }, {
+      "@id" : "_:genid93"
+    }, {
+      "@id" : "_:genid91"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid97"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "0"
+  } ]
+}, {
+  "@id" : "_:genid91",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn"
+  } ]
+}, {
+  "@id" : "_:genid93",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ]
+}, {
+  "@id" : "_:genid95",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"
+  } ]
+}, {
+  "@id" : "_:genid97",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasHotel"
+  } ]
+}, {
+  "@id" : "_:genid98",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid104"
+    }, {
+      "@id" : "_:genid102"
+    }, {
+      "@id" : "_:genid100"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid106"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This ontology models the knowledge related to cities and their tourist and business attractions. It allows the description of localities, services, and events in each city."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Restaurant entity andalusian food."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Andalusian Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "In principle any thing can be a Tourist Attraction located in a city, from a Museums and Monuments to a Parks. Its quality is rated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Attraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Place"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that provides a transport its average price."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "average price"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation" : [ {
+    "@value" : "41.3874,2.1686"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Barcelona"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Barcelona City."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Barcelona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Attraction entity reperesenting a natural shoreline by the sea."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Beach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Hotel enity focused on beach accommodations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Beach Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation" : [ {
+    "@value" : "43.2630,-2.9350"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Bilbao"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Bilbao City."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Bilbao"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Transport entity that provides bus service for the public."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusBarcelona9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8.72"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Metro Barcelona"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Bus Barcelona\" Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Bus Barcelona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusBilbao19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8.58"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "City Bilbao"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Bus Bilbao Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Bus Bilbao"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusSaragossa4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5.79"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "City Saragossa"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Bus Saragossa\" Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Bus Saragossa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusSevilla10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "9.48"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Trans Sevilla"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Bus Sevilla Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Bus Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusSevilla12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8.03"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "City Sevilla"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Bus Sevilla Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Bus Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Hotel enity focused on business accommodations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Business Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation" : [ {
+    "@value" : "36.5297,-6.2920"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Cádiz"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Cadis City."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalBilbao26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-11-12"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Carnaval Bilbao\" Music Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Carnaval Bilbao"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalCadis3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-04-19"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Carnaval Cadis\" Sport Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Carnaval Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalMalaga25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-12-24"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Carnaval Màlaga\" Technological Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Carnaval Màlaga"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalSaragossa34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-02-19"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Carnaval Saragossa\" Gastronomic Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Carnaval Saragossa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalSevilla20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-02-02"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Carnaval Sevilla\" Cultural Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Carnaval Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalValencia17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-01-28"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "\"Carnaval València\" Music Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Carnaval València"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellBarcelona16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Castell Barcelona\" Cultural Attraction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Castell Barcelona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellCadis15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.0"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Castell Cadis\" Monument."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Castell Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellMalaga27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Castell Màlaga\" Cultural Attraction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Castell Màlaga"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellPamplona14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.9"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Castell Pamplona\" Beach."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Castell Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellSantSebastia29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SantSebastia8"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Castell Sant Sebastià\" Museum."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Castell Sant Sebastià"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellSaragossa1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Castell Saragossa\" Museum."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Castell Saragossa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellSevilla2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.6"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Castell Sevilla\" Monument."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Castell Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellToledo10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Castell Toledo\" Monument."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Castell Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralBarcelona20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Catedral Barcelona\" Beach."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Catedral Barcelona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralCadis12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Catedral Cadis\" Park."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Catedral Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralMalaga21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Catedral Màlaga\" Park."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Catedral Màlaga"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralPamplona9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Catedral Pamplona\" Monument."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Catedral Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralSaragossa26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.6"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Catedral Saragossa\" Beach."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Catedral Saragossa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralSevilla2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.1"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Catedral Sevilla\" Beach."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Catedral Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Geographical place representing a city with name and location."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "City"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertPamplona32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-07-04"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Concert Pamplona\" Technological Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Concert Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertSevilla16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-02-22"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Concert Sevilla\" Technological Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Concert Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertToledo35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-12-06"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Concert Toledo\" Gastronomic Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Concert Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertValencia19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-02-07"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Concert València\" Music Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Concert València"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresBarcelona10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-06-28"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Congrés Barcelona\" Gastronomic Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Congrés Barcelona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresBilbao3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-12-01"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Congrés Bilbao\" Cultural Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Congrés Bilbao"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresCadis1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-06-02"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Congrés Cadis\" Sport Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Congrés Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresSantSebastia9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-06-04"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SantSebastia8"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "\"Congrés Sant Sebastià\" Music Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Congrés Sant Sebastià"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresSevilla44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-10-24"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Congrés Sevilla\" Gastronomic Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Congrés Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresToledo14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-12-14"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Congrés Toledo\" Cultural Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Congrés Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresValencia46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-10-24"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Congrés València\" Music Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Congrés València"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Attraction entity with a cultural interest for the public interest."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cultural Attraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Event entity focused on cultural activities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cultural Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Enity that represents an occasion of public interest in a city at a specific date."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#InterestSite"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent"
+    } ]
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalMadrid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-07-21"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Festival Madrid\" Sport Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Festival Madrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalMalaga59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-03-11"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Festival Màlaga\" Technological Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Festival Màlaga"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalSaragossa15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-09-01"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Festival Saragossa\" Gastronomic Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Festival Saragossa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalSevilla22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-08-16"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Festival Sevilla\" Cultural Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Festival Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalToledo28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-12-19"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Festival Toledo\" Technological Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Festival Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FiraBarcelona12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-09-21"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Fira Barcelona\" Cultural Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Fira Barcelona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FiraSevilla21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-06-15"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "\"Fira Sevilla\" Sport Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Fira Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FiraToledo5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate" : [ {
+    "@value" : "2024-08-26"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Fira Toledo\" Sport Event."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Fira Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Event entity focused on gastronomy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gastronomic Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HootelVistaCadis8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "150"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.0"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Vista Cadis\" Beach Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Vista Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Enity that represents  type of place that provides accomodations in a city to customers for a price. Its quality is valorated and the services that offers by stars."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Place"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel"
+    } ]
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid32"
+  }, {
+    "@id" : "_:genid33"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarBarcelona34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "250"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.1"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Del Mar Barcelona\" Tursitic Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Del Mar Barcelona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarMalaga38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "196"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Del Mar Màlaga\" Rural Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Del Mar Màlaga"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarPamplona35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "59"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.6"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Del Mar Pamplona\" Tursitic Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Del Mar Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarSantSebastia28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "110"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SantSebastia8"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Del Mar Sant Sebastià\" Luxury Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Del Mar Sant Sebastià"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarToledo17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "145"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.3"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Del Mar Toledo\" Beach Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Del Mar Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarValencia37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "139"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Del Mar València\" Rural Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Del Mar València"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceCadis15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "287"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Palace Cadis\" Business Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Palace Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceMadrid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "91"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "\"Hotel Palace Madrid\" Business Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Palace Madrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceSaragossa5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "120"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Palace Saragossa\" Luxury Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Palace Saragossa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceToledo32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "74"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Palace Toledo\" Rural Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Palace Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalBarcelona9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "252"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.0"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Royal Barcelona\" Beach Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Royal Barcelona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalMadrid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "146"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Royal Madrid\" Business Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Royal Madrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalPamplona2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "56"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.9"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "\"Hotel Royal Pamplona\" Luxury Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Royal Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalSantSebastia6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "245"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SantSebastia8"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Royal Sant Sebastià\" Business Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Royal Sant Sebastià"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalSevilla25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "92"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Royal Sevilla\" Turistic Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Royal Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolBarcelona33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "189"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Sol Barcelona\" Rural Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Sol Barcelona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolBilbao19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "290"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.6"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Sol Bilbao\" Beach Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Sol Bilbao"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolCadis26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "151"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.6"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Sol Cadis\" Turistic Hostel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Sol Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolSaragossa39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "262"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.6"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "\"Hotel Sol Saragossa\" Luxury Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Sol Saragossa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolValencia21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "291"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Sol València\" Luxury Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Sol València"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaMadrid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "117"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Vista Madrid\" Turistic Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Vista Madrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaMalaga22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "238"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Vista Màlaga\" Business Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Vista Màlaga"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaPamplona49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "98"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.2"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Vista Pamplona\" Rural Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Vista Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaSevilla1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "278"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Hotel Vista Sevilla\" Beach Hotel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hotel Vista Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#InterestSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Enity that represents a place, service or event of public interest in a city."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Interest Site"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid39"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Restaurant entity that serves italian food."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Italian Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Restaurant entity that serves japanese food."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Japanese Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Hotel enity focused on luxury accommodations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Luxury Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation" : [ {
+    "@value" : "40.4168,-3.7038"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Madrid City."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Madrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation" : [ {
+    "@value" : "36.7213,-4.4210"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Málaga"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Malaga City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Màlaga"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Restaurant entity  that serves mediterranean food."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mediterranean Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Transport entity that provides metro service for the public."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Metro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroBilbao18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "6.84"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Metro Bilbao"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Metro Bilbao Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Metro Bilbao"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroCadis13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5.87"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "City Cadis"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Metro Cadis Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Metro Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroCadis5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.63"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Movi Cadis"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Metro Cadis Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Metro Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroMadrid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8.85"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Urban Madrid"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Metro Madrid Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Metro Madrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroPamplona21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8.55"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "City Pamplona"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Metro Pamplona Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Metro Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Restaurant entity that serves mexican food."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mexican Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Attraction entity of an historical or cultural structure of public interest."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Monument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MuseuBarcelona33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Museu Barcelona\" Museum."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Museu Barcelona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MuseuMadrid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Museu Madrid\" Museum."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Museu Madrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MuseuMalaga18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.3"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Museu Màlaga\" Park."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Museu Màlaga"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Attraction entity that focuses on the exhibition of public interest objects."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Museum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Event entity focused on music."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Music Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PalauBarcelona19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Palau Barcelona\" Cultural Attraction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Palau Barcelona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PalauBilbao6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.9"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Palau Bilbao\" Museum."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Palau Bilbao"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PalauPamplona13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.0"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Palau Pamplona\" Cultural Attraction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Palau Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation" : [ {
+    "@value" : "42.8169,-1.6444"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Pamplona"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Pamplona City."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcBarcelona43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.9"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Parc Barcelona\" Park."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Parc Barcelona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcBilbao25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.6"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "\"Parc Bilbao\" Beach."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Parc Bilbao"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcMadrid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Parc Madrid\" Cultural Attraction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Parc Madrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcSantSebastia8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.9"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SantSebastia8"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Parc Sant Sebastià\" Park."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Parc Sant Sebastià"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcToledo11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Parc Toledo\" Monument."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Parc Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Attraction entity of a large green public space for outdoor activities or nature enjoyment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Park"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Entities that have a somewhat fixed, physical extension."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#InterestSite"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Transport entity that provides bicycles to be used by the public."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Public Bicycle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycleBilbao17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "6.58"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Urban Bilbao"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Public Bicycle Bilbao Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Public Bicycle Bilbao"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycleMadrid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.32"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "City Madrid"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Public Bicycle Madrid Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Public Bicycle Madrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicyclePamplona23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.83"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Movi Pamplona"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Public Bicycle Pamplona Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Public Bicycle Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicyclePamplona45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "9.48"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Metro Pamplona"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Public Bicycle Pamplona Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Public Bicycle Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicyclePamplona6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8.48"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Trans Pamplona"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Public Bicycle Pamplona Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Public Bicycle Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Type of place entity that provides food and beverages for customers at a city for a price. Its quality is valorated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Place"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant"
+    } ]
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid40"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaCadis53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "26"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Delicia Cadis\" Mediterranean Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Delicia Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaMadrid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "16"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Delicia Madrid\" Mexican Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Delicia Madrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaMalaga4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "38"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.9"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Delicia Màlaga\" Japanese Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Delicia Màlaga"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaPamplona30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "42"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.6"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Delicia Pamplona\" Andalusian Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Delicia Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaSaragossa13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "77"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.1"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Delicia Saragossa\" Japanese Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Delicia Saragossa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaSevilla34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "43"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.9"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Delicia Sevilla\" Mexican Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Delicia Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaValencia29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "61"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Delicia València\" Mediterranean Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Delicia València"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioCadis28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "18"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Fusió Cadis\" Mexican Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Fusió Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioMadrid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "37"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Fusió Madrid\" Italian Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Fusió Madrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioPamplona16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "40"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.1"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Fusió Pamplona\" Andalusian Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Fusió Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioSevilla23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.9"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Fusió Sevilla\" Italian Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Fusió Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioValencia3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.2"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Fusió València\" Andalusian Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Fusió València"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetCadis17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "68"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.3"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Gourmet Cadis\" Italian Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Gourmet Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetMadrid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "30"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Gourmet Madrid\" Japanese Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Gourmet Madrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetMalaga20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "36"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Gourmet Màlaga\" Japoanese Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Gourmet Màlaga"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetPamplona26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "32"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Gourmet Pamplona\" Italian Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Gourmet Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetSaragossa7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "65"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Gourmet Saragossa\" Andalusian Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Gourmet Saragossa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetSevilla24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.8"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Gourmet Sevilla\" Andalusian Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Gourmet Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetToledo8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "48"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Gourmet Toledo\" Japanese Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Gourmet Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborCadis12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.9"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Sabor Cadis\" Mexican Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Sabor Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborMalaga49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "43"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Sabor Màlaga\" Mediterranen Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Sabor Màlaga"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborSevilla6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "72"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.1"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Sabor Sevilla\" Italian Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Sabor Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborValencia37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "28"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.2"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Sabor València\" Mediterranean Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Sabor València"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantTradicioMadrid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "59"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.0"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Tradició Madrid\" Mediterranean Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Tradició Madrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantTradicioToledo1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "46"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "\"Restaurant Tradició Toledo\" Mexican Restaurant."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Restaurant Tradició Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Hotel enity focused on rural accommodations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Rural Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SantSebastia8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation" : [ {
+    "@value" : "43.3183,-1.9812"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/San_Sebastián"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sant Sebastià City."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sant Sebastià"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation" : [ {
+    "@value" : "41.6488,-0.8891"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Zaragoza"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Saragossa City."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Saragossa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation" : [ {
+    "@value" : "37.3886,-5.9823"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Seville"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Sevilla City."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sevilla"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Event entity focused on sport activities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sport Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Transport entity that provides taxi service for the public."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Taxi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiBilbao2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5.75"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Trans Bilbao"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Taxi Bilbao Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Taxi Bilbao"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiBilbao20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "9.2"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Bilbao"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Taxi Bilbao Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Taxi Bilbao"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiCadis7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.4"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Metro Cadis"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Taxi Cadis Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Taxi Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiPamplona14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "7.11"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Movi Pamplona"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Taxi Pamplona Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Taxi Pamplona"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiSaragossa25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.04"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Metro Saragossa"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Taxi Saragossa Transporte"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Taxi Saragossa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Event entity focused on technology."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Technological Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation" : [ {
+    "@value" : "39.8628,-4.0273"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "https://dbpedia.org/page/Toledo,_Spain"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Toledo City."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Transport entity that provides tram service for the public."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tram"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramCadis15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "2.93"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Movi Cadis"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Tram Cadis Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tram Cadis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramMalaga16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "7.66"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "City Màlaga"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Tram Màlaga Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tram Màlaga"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramSaragossa22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.11"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Urban Saragossa"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Tram Saragossa Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tram Saragossa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramToledo3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.61"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Trans Toledo"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Tram Toledo Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tram Toledo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramValencia11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "9.05"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy" : [ {
+    "@value" : "Trans València"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Tram València Transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tram València"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Service entity that provides a method of transportation of people located in a city at a price."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#InterestSite"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi"
+    }, {
+      "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram"
+    } ]
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid46"
+  }, {
+    "@id" : "_:genid47"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Hotel enity focused on turistic accommodations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Turistic Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation" : [ {
+    "@value" : "39.4699,-0.3763"
+  } ],
+  "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Valencia"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "València City."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "València"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that provides a restaurant its menu average price."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "average menu price"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasAttraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents the relationship between a City and an Attraction is located in it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has attraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that provides an event entity its date."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents the relationship between a City and an Event is located in it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents the relationship between a City and a Hotel is located in it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that provides a place with its location using latitude and longitude."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that provides an entity its name."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that provides a hotel entity its nightly price."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has nightly price"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that provides an entity its rating."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents the relationship between a City and a Restaurant is located in it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that provides a hotel entity its star rating."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has star rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasTransport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents the relationship between a City and a Transport is located in it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents the relationship between a place or service and the city it is located in."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#InterestSite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is located in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property that provides a transport with its company provider of services."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is provided by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "urn:swrl:var#a",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#c",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#e",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#h",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#r",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#t",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]

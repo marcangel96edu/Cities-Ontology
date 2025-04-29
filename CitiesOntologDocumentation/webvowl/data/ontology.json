@@ -1,0 +1,2875 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology" ],
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "comments" : {
+      "en" : "This ontology models the knowledge related to cities and their tourist and business attractions. It allows the description of localities, services, and events in each city."
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "74",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "13",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BeachHotel",
+      "en" : "Beach Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HootelVistaCadis8",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Vista Cadis\" Beach Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HootelVistaCadis8",
+        "undefined" : "Hotel Vista Cadis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarToledo17",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Del Mar Toledo\" Beach Hotel"
+      },
+      "labels" : {
+        "IRI-based" : "HotelDelMarToledo17",
+        "undefined" : "Hotel Del Mar Toledo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaSevilla1",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Vista Sevilla\" Beach Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelVistaSevilla1",
+        "undefined" : "Hotel Vista Sevilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalBarcelona9",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Royal Barcelona\" Beach Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelRoyalBarcelona9",
+        "undefined" : "Hotel Royal Barcelona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolBilbao19",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Sol Bilbao\" Beach Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelSolBilbao19",
+        "undefined" : "Hotel Sol Bilbao"
+      }
+    } ],
+    "comment" : {
+      "en" : "Hotel enity focused on beach accommodations."
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MexicanRestaurant",
+      "en" : "Mexican Restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborCadis12",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Sabor Cadis\" Mexican Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantSaborCadis12",
+        "undefined" : "Restaurant Sabor Cadis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaMadrid21",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Delicia Madrid\" Mexican Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantDeliciaMadrid21",
+        "undefined" : "Restaurant Delicia Madrid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaSevilla34",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Delicia Sevilla\" Mexican Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantDeliciaSevilla34",
+        "undefined" : "Restaurant Delicia Sevilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantTradicioToledo1",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Tradició Toledo\" Mexican Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantTradicioToledo1",
+        "undefined" : "Restaurant Tradició Toledo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioCadis28",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Fusió Cadis\" Mexican Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantFusioCadis28",
+        "undefined" : "Restaurant Fusió Cadis"
+      }
+    } ],
+    "comment" : {
+      "en" : "Restaurant entity that serves mexican food."
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalEvent",
+      "en" : "Cultural Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresBilbao3",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Congrés Bilbao\" Cultural Event."
+      },
+      "labels" : {
+        "IRI-based" : "CongresBilbao3",
+        "undefined" : "Congrés Bilbao"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresToledo14",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Congrés Toledo\" Cultural Event."
+      },
+      "labels" : {
+        "IRI-based" : "CongresToledo14",
+        "undefined" : "Congrés Toledo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FiraBarcelona12",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Fira Barcelona\" Cultural Event."
+      },
+      "labels" : {
+        "IRI-based" : "FiraBarcelona12",
+        "undefined" : "Fira Barcelona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalSevilla20",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Carnaval Sevilla\" Cultural Event."
+      },
+      "labels" : {
+        "IRI-based" : "CarnavalSevilla20",
+        "undefined" : "Carnaval Sevilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalSevilla22",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Festival Sevilla\" Cultural Event."
+      },
+      "labels" : {
+        "IRI-based" : "FestivalSevilla22",
+        "undefined" : "Festival Sevilla"
+      }
+    } ],
+    "comment" : {
+      "en" : "Event entity focused on cultural activities."
+    },
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bus",
+      "en" : "Bus"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusSevilla12",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Bus Sevilla Transport."
+      },
+      "labels" : {
+        "IRI-based" : "BusSevilla12",
+        "undefined" : "Bus Sevilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusBarcelona9",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Bus Barcelona\" Transport."
+      },
+      "labels" : {
+        "IRI-based" : "BusBarcelona9",
+        "undefined" : "Bus Barcelona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusSaragossa4",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Bus Saragossa\" Transport."
+      },
+      "labels" : {
+        "IRI-based" : "BusSaragossa4",
+        "undefined" : "Bus Saragossa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusSevilla10",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Bus Sevilla Transport."
+      },
+      "labels" : {
+        "IRI-based" : "BusSevilla10",
+        "undefined" : "Bus Sevilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusBilbao19",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Bus Bilbao Transport."
+      },
+      "labels" : {
+        "IRI-based" : "BusBilbao19",
+        "undefined" : "Bus Bilbao"
+      }
+    } ],
+    "comment" : {
+      "en" : "Transport entity that provides bus service for the public."
+    },
+    "id" : "12",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "JapaneseRestaurant",
+      "en" : "Japanese Restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaMalaga4",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Delicia Màlaga\" Japanese Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantDeliciaMalaga4",
+        "undefined" : "Restaurant Delicia Màlaga"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetToledo8",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Gourmet Toledo\" Japanese Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantGourmetToledo8",
+        "undefined" : "Restaurant Gourmet Toledo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaSaragossa13",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Delicia Saragossa\" Japanese Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantDeliciaSaragossa13",
+        "undefined" : "Restaurant Delicia Saragossa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetMalaga20",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Gourmet Màlaga\" Japoanese Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantGourmetMalaga20",
+        "undefined" : "Restaurant Gourmet Màlaga"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetMadrid2",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Gourmet Madrid\" Japanese Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantGourmetMadrid2",
+        "undefined" : "Restaurant Gourmet Madrid"
+      }
+    } ],
+    "comment" : {
+      "en" : "Restaurant entity that serves japanese food."
+    },
+    "id" : "14",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TuristicHotel",
+      "en" : "Turistic Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaMadrid31",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Vista Madrid\" Turistic Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelVistaMadrid31",
+        "undefined" : "Hotel Vista Madrid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarBarcelona34",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Del Mar Barcelona\" Tursitic Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelDelMarBarcelona34",
+        "undefined" : "Hotel Del Mar Barcelona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarPamplona35",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Del Mar Pamplona\" Tursitic Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelDelMarPamplona35",
+        "undefined" : "Hotel Del Mar Pamplona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalSevilla25",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Royal Sevilla\" Turistic Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelRoyalSevilla25",
+        "undefined" : "Hotel Royal Sevilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolCadis26",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Sol Cadis\" Turistic Hostel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelSolCadis26",
+        "undefined" : "Hotel Sol Cadis"
+      }
+    } ],
+    "comment" : {
+      "en" : "Hotel enity focused on turistic accommodations."
+    },
+    "id" : "24",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "disjointUnion" : [ "29", "30", "31", "32", "33" ],
+    "label" : {
+      "IRI-based" : "Attraction",
+      "en" : "Attraction"
+    },
+    "subClasses" : [ "29", "30", "31", "32", "33" ],
+    "comment" : {
+      "en" : "In principle any thing can be a Tourist Attraction located in a city, from a Museums and Monuments to a Parks. Its quality is rated."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Beach",
+      "en" : "Beach"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralBarcelona20",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Catedral Barcelona\" Beach."
+      },
+      "labels" : {
+        "IRI-based" : "CatedralBarcelona20",
+        "undefined" : "Catedral Barcelona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralSaragossa26",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Catedral Saragossa\" Beach."
+      },
+      "labels" : {
+        "IRI-based" : "CatedralSaragossa26",
+        "undefined" : "Catedral Saragossa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralSevilla2",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Catedral Sevilla\" Beach."
+      },
+      "labels" : {
+        "IRI-based" : "CatedralSevilla2",
+        "undefined" : "Catedral Sevilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellPamplona14",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Castell Pamplona\" Beach."
+      },
+      "labels" : {
+        "IRI-based" : "CastellPamplona14",
+        "undefined" : "Castell Pamplona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcBilbao25",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "undefined" : "\"Parc Bilbao\" Beach."
+      },
+      "labels" : {
+        "IRI-based" : "ParcBilbao25",
+        "undefined" : "Parc Bilbao"
+      }
+    } ],
+    "comment" : {
+      "en" : "Attraction entity reperesenting a natural shoreline by the sea."
+    },
+    "id" : "32",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tram",
+      "en" : "Tram"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramToledo3",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Tram Toledo Transport"
+      },
+      "labels" : {
+        "IRI-based" : "TramToledo3",
+        "undefined" : "Tram Toledo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramSaragossa22",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Tram Saragossa Transport."
+      },
+      "labels" : {
+        "IRI-based" : "TramSaragossa22",
+        "undefined" : "Tram Saragossa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramMalaga16",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Tram Màlaga Transport."
+      },
+      "labels" : {
+        "IRI-based" : "TramMalaga16",
+        "undefined" : "Tram Màlaga"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramCadis15",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Tram Cadis Transport."
+      },
+      "labels" : {
+        "IRI-based" : "TramCadis15",
+        "undefined" : "Tram Cadis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramValencia11",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Tram València Transport."
+      },
+      "labels" : {
+        "IRI-based" : "TramValencia11",
+        "undefined" : "Tram València"
+      }
+    } ],
+    "comment" : {
+      "en" : "Transport entity that provides tram service for the public."
+    },
+    "id" : "36",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "disjointUnion" : [ "8", "9", "16", "11", "5" ],
+    "label" : {
+      "IRI-based" : "Event",
+      "en" : "Event"
+    },
+    "subClasses" : [ "8", "9", "16", "11", "5" ],
+    "comment" : {
+      "en" : "Enity that represents an occasion of public interest in a city at a specific date."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "6",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GastronomicEvent",
+      "en" : "Gastronomic Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresBarcelona10",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Congrés Barcelona\" Gastronomic Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "CongresBarcelona10",
+        "undefined" : "Congrés Barcelona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertToledo35",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Concert Toledo\" Gastronomic Event."
+      },
+      "labels" : {
+        "IRI-based" : "ConcertToledo35",
+        "undefined" : "Concert Toledo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalSaragossa34",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Carnaval Saragossa\" Gastronomic Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "CarnavalSaragossa34",
+        "undefined" : "Carnaval Saragossa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalSaragossa15",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Festival Saragossa\" Gastronomic Event."
+      },
+      "labels" : {
+        "IRI-based" : "FestivalSaragossa15",
+        "undefined" : "Festival Saragossa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresSevilla44",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Congrés Sevilla\" Gastronomic Event."
+      },
+      "labels" : {
+        "IRI-based" : "CongresSevilla44",
+        "undefined" : "Congrés Sevilla"
+      }
+    } ],
+    "comment" : {
+      "en" : "Event entity focused on gastronomy."
+    },
+    "id" : "16",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "disjointUnion" : [ "41", "3", "42", "14", "43" ],
+    "label" : {
+      "IRI-based" : "Restaurant",
+      "en" : "Restaurant"
+    },
+    "subClasses" : [ "41", "3", "42", "14", "43" ],
+    "comment" : {
+      "en" : "Type of place entity that provides food and beverages for customers at a city for a price. Its quality is valorated."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "4",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AndalusianRestaruant",
+      "en" : "Andalusian Restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaPamplona30",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Delicia Pamplona\" Andalusian Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantDeliciaPamplona30",
+        "undefined" : "Restaurant Delicia Pamplona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetSevilla24",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Gourmet Sevilla\" Andalusian Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantGourmetSevilla24",
+        "undefined" : "Restaurant Gourmet Sevilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioValencia3",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Fusió València\" Andalusian Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantFusioValencia3",
+        "undefined" : "Restaurant Fusió València"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetSaragossa7",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Gourmet Saragossa\" Andalusian Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantGourmetSaragossa7",
+        "undefined" : "Restaurant Gourmet Saragossa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioPamplona16",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Fusió Pamplona\" Andalusian Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantFusioPamplona16",
+        "undefined" : "Restaurant Fusió Pamplona"
+      }
+    } ],
+    "comment" : {
+      "en" : "Restaurant entity andalusian food."
+    },
+    "id" : "43",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Place",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Place",
+      "en" : "Place"
+    },
+    "subClasses" : [ "4", "27", "1" ],
+    "comment" : {
+      "en" : "Entities that have a somewhat fixed, physical extension."
+    },
+    "id" : "28",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Taxi",
+      "en" : "Taxi"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiCadis7",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Taxi Cadis Transport."
+      },
+      "labels" : {
+        "IRI-based" : "TaxiCadis7",
+        "undefined" : "Taxi Cadis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiSaragossa25",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Taxi Saragossa Transporte"
+      },
+      "labels" : {
+        "IRI-based" : "TaxiSaragossa25",
+        "undefined" : "Taxi Saragossa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiBilbao2",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Taxi Bilbao Transport."
+      },
+      "labels" : {
+        "IRI-based" : "TaxiBilbao2",
+        "undefined" : "Taxi Bilbao"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiBilbao20",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Taxi Bilbao Transport."
+      },
+      "labels" : {
+        "IRI-based" : "TaxiBilbao20",
+        "undefined" : "Taxi Bilbao"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiPamplona14",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Taxi Pamplona Transport."
+      },
+      "labels" : {
+        "IRI-based" : "TaxiPamplona14",
+        "undefined" : "Taxi Pamplona"
+      }
+    } ],
+    "comment" : {
+      "en" : "Transport entity that provides taxi service for the public."
+    },
+    "id" : "40",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Metro",
+      "en" : "Metro"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroPamplona21",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Metro Pamplona Transport."
+      },
+      "labels" : {
+        "IRI-based" : "MetroPamplona21",
+        "undefined" : "Metro Pamplona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroCadis5",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Metro Cadis Transport."
+      },
+      "labels" : {
+        "IRI-based" : "MetroCadis5",
+        "undefined" : "Metro Cadis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroBilbao18",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "undefined" : "Metro Bilbao Transport."
+      },
+      "labels" : {
+        "IRI-based" : "MetroBilbao18",
+        "undefined" : "Metro Bilbao"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroMadrid1",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Metro Madrid Transport"
+      },
+      "labels" : {
+        "IRI-based" : "MetroMadrid1",
+        "undefined" : "Metro Madrid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroCadis13",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "undefined" : "Metro Cadis Transport."
+      },
+      "labels" : {
+        "IRI-based" : "MetroCadis13",
+        "undefined" : "Metro Cadis"
+      }
+    } ],
+    "comment" : {
+      "en" : "Transport entity that provides metro service for the public."
+    },
+    "id" : "46",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Museum",
+      "en" : "Museum"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PalauBilbao6",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Palau Bilbao\" Museum."
+      },
+      "labels" : {
+        "IRI-based" : "PalauBilbao6",
+        "undefined" : "Palau Bilbao"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellSantSebastia29",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Castell Sant Sebastià\" Museum."
+      },
+      "labels" : {
+        "IRI-based" : "CastellSantSebastia29",
+        "undefined" : "Castell Sant Sebastià"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MuseuMadrid4",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Museu Madrid\" Museum."
+      },
+      "labels" : {
+        "IRI-based" : "MuseuMadrid4",
+        "undefined" : "Museu Madrid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellSaragossa1",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Castell Saragossa\" Museum."
+      },
+      "labels" : {
+        "IRI-based" : "CastellSaragossa1",
+        "undefined" : "Castell Saragossa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MuseuBarcelona33",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Museu Barcelona\" Museum."
+      },
+      "labels" : {
+        "IRI-based" : "MuseuBarcelona33",
+        "undefined" : "Museu Barcelona"
+      }
+    } ],
+    "comment" : {
+      "en" : "Attraction entity that focuses on the exhibition of public interest objects."
+    },
+    "id" : "29",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MediterraneanRestaurant",
+      "en" : "Mediterranean Restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaValencia29",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Delicia València\" Mediterranean Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantDeliciaValencia29",
+        "undefined" : "Restaurant Delicia València"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantTradicioMadrid56",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Tradició Madrid\" Mediterranean Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantTradicioMadrid56",
+        "undefined" : "Restaurant Tradició Madrid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborValencia37",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Sabor València\" Mediterranean Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantSaborValencia37",
+        "undefined" : "Restaurant Sabor València"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaCadis53",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Delicia Cadis\" Mediterranean Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantDeliciaCadis53",
+        "undefined" : "Restaurant Delicia Cadis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborMalaga49",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Sabor Màlaga\" Mediterranen Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantSaborMalaga49",
+        "undefined" : "Restaurant Sabor Màlaga"
+      }
+    } ],
+    "comment" : {
+      "en" : "Restaurant entity  that serves mediterranean food."
+    },
+    "id" : "41",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LuxuryHotel",
+      "en" : "Luxury Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceSaragossa5",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Palace Saragossa\" Luxury Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelPalaceSaragossa5",
+        "undefined" : "Hotel Palace Saragossa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarSantSebastia28",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Del Mar Sant Sebastià\" Luxury Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelDelMarSantSebastia28",
+        "undefined" : "Hotel Del Mar Sant Sebastià"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolSaragossa39",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "undefined" : "\"Hotel Sol Saragossa\" Luxury Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelSolSaragossa39",
+        "undefined" : "Hotel Sol Saragossa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolValencia21",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Sol València\" Luxury Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelSolValencia21",
+        "undefined" : "Hotel Sol València"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalPamplona2",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "undefined" : "\"Hotel Royal Pamplona\" Luxury Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelRoyalPamplona2",
+        "undefined" : "Hotel Royal Pamplona"
+      }
+    } ],
+    "comment" : {
+      "en" : "Hotel enity focused on luxury accommodations."
+    },
+    "id" : "65",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Park",
+      "en" : "Park"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MuseuMalaga18",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Museu Màlaga\" Park."
+      },
+      "labels" : {
+        "IRI-based" : "MuseuMalaga18",
+        "undefined" : "Museu Màlaga"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcBarcelona43",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Parc Barcelona\" Park."
+      },
+      "labels" : {
+        "IRI-based" : "ParcBarcelona43",
+        "undefined" : "Parc Barcelona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralCadis12",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Catedral Cadis\" Park."
+      },
+      "labels" : {
+        "IRI-based" : "CatedralCadis12",
+        "undefined" : "Catedral Cadis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralMalaga21",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Catedral Màlaga\" Park."
+      },
+      "labels" : {
+        "IRI-based" : "CatedralMalaga21",
+        "undefined" : "Catedral Màlaga"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcSantSebastia8",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Parc Sant Sebastià\" Park."
+      },
+      "labels" : {
+        "IRI-based" : "ParcSantSebastia8",
+        "undefined" : "Parc Sant Sebastià"
+      }
+    } ],
+    "comment" : {
+      "en" : "Attraction entity of a large green public space for outdoor activities or nature enjoyment."
+    },
+    "id" : "33",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PublicBicycle",
+      "en" : "Public Bicycle"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycleBilbao17",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Public Bicycle Bilbao Transport"
+      },
+      "labels" : {
+        "IRI-based" : "PublicBicycleBilbao17",
+        "undefined" : "Public Bicycle Bilbao"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicyclePamplona45",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Public Bicycle Pamplona Transport."
+      },
+      "labels" : {
+        "IRI-based" : "PublicBicyclePamplona45",
+        "undefined" : "Public Bicycle Pamplona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicyclePamplona23",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Public Bicycle Pamplona Transport."
+      },
+      "labels" : {
+        "IRI-based" : "PublicBicyclePamplona23",
+        "undefined" : "Public Bicycle Pamplona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycleMadrid8",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Public Bicycle Madrid Transport."
+      },
+      "labels" : {
+        "IRI-based" : "PublicBicycleMadrid8",
+        "undefined" : "Public Bicycle Madrid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicyclePamplona6",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Public Bicycle Pamplona Transport."
+      },
+      "labels" : {
+        "IRI-based" : "PublicBicyclePamplona6",
+        "undefined" : "Public Bicycle Pamplona"
+      }
+    } ],
+    "comment" : {
+      "en" : "Transport entity that provides bicycles to be used by the public."
+    },
+    "id" : "38",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "72",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "74",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "disjointUnion" : [ "40", "38", "12", "46", "36" ],
+    "label" : {
+      "IRI-based" : "Transport",
+      "en" : "Transport"
+    },
+    "subClasses" : [ "40", "38", "12", "46", "36" ],
+    "comment" : {
+      "en" : "Service entity that provides a method of transportation of people located in a city at a price."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "13",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "77",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "78",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "79",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SportEvent",
+      "en" : "Sport Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalMadrid7",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Festival Madrid\" Sport Event."
+      },
+      "labels" : {
+        "IRI-based" : "FestivalMadrid7",
+        "undefined" : "Festival Madrid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FiraSevilla21",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "undefined" : "\"Fira Sevilla\" Sport Event."
+      },
+      "labels" : {
+        "IRI-based" : "FiraSevilla21",
+        "undefined" : "Fira Sevilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresCadis1",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Congrés Cadis\" Sport Event."
+      },
+      "labels" : {
+        "IRI-based" : "CongresCadis1",
+        "undefined" : "Congrés Cadis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalCadis3",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Carnaval Cadis\" Sport Event."
+      },
+      "labels" : {
+        "IRI-based" : "CarnavalCadis3",
+        "undefined" : "Carnaval Cadis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FiraToledo5",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Fira Toledo\" Sport Event."
+      },
+      "labels" : {
+        "IRI-based" : "FiraToledo5",
+        "undefined" : "Fira Toledo"
+      }
+    } ],
+    "comment" : {
+      "en" : "Event entity focused on sport activities."
+    },
+    "id" : "8",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BusinessHotel",
+      "en" : "Business Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaMalaga22",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Vista Màlaga\" Business Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelVistaMalaga22",
+        "undefined" : "Hotel Vista Màlaga"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceCadis15",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Palace Cadis\" Business Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelPalaceCadis15",
+        "undefined" : "Hotel Palace Cadis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalSantSebastia6",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Royal Sant Sebastià\" Business Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelRoyalSantSebastia6",
+        "undefined" : "Hotel Royal Sant Sebastià"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalMadrid11",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Royal Madrid\" Business Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelRoyalMadrid11",
+        "undefined" : "Hotel Royal Madrid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceMadrid14",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "undefined" : "\"Hotel Palace Madrid\" Business Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelPalaceMadrid14",
+        "undefined" : "Hotel Palace Madrid"
+      }
+    } ],
+    "comment" : {
+      "en" : "Hotel enity focused on business accommodations."
+    },
+    "id" : "87",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TechnologicalEvent",
+      "en" : "Technological Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertSevilla16",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Concert Sevilla\" Technological Event."
+      },
+      "labels" : {
+        "IRI-based" : "ConcertSevilla16",
+        "undefined" : "Concert Sevilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalMalaga59",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Festival Màlaga\" Technological Event."
+      },
+      "labels" : {
+        "IRI-based" : "FestivalMalaga59",
+        "undefined" : "Festival Màlaga"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertPamplona32",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Concert Pamplona\" Technological Event."
+      },
+      "labels" : {
+        "IRI-based" : "ConcertPamplona32",
+        "undefined" : "Concert Pamplona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalMalaga25",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Carnaval Màlaga\" Technological Event."
+      },
+      "labels" : {
+        "IRI-based" : "CarnavalMalaga25",
+        "undefined" : "Carnaval Màlaga"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalToledo28",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Festival Toledo\" Technological Event."
+      },
+      "labels" : {
+        "IRI-based" : "FestivalToledo28",
+        "undefined" : "Festival Toledo"
+      }
+    } ],
+    "comment" : {
+      "en" : "Event entity focused on technology."
+    },
+    "id" : "9",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MusicEvent",
+      "en" : "Music Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalValencia17",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "undefined" : "\"Carnaval València\" Music Event."
+      },
+      "labels" : {
+        "IRI-based" : "CarnavalValencia17",
+        "undefined" : "Carnaval València"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertValencia19",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Concert València\" Music Event."
+      },
+      "labels" : {
+        "IRI-based" : "ConcertValencia19",
+        "undefined" : "Concert València"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresSantSebastia9",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "undefined" : "\"Congrés Sant Sebastià\" Music Event."
+      },
+      "labels" : {
+        "IRI-based" : "CongresSantSebastia9",
+        "undefined" : "Congrés Sant Sebastià"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresValencia46",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Congrés València\" Music Event."
+      },
+      "labels" : {
+        "IRI-based" : "CongresValencia46",
+        "undefined" : "Congrés València"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalBilbao26",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Carnaval Bilbao\" Music Event."
+      },
+      "labels" : {
+        "IRI-based" : "CarnavalBilbao26",
+        "undefined" : "Carnaval Bilbao"
+      }
+    } ],
+    "comment" : {
+      "en" : "Event entity focused on music."
+    },
+    "id" : "11",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ItalianRestaurant",
+      "en" : "Italian Restaurant"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetPamplona26",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Gourmet Pamplona\" Italian Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantGourmetPamplona26",
+        "undefined" : "Restaurant Gourmet Pamplona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborSevilla6",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Sabor Sevilla\" Italian Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantSaborSevilla6",
+        "undefined" : "Restaurant Sabor Sevilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioSevilla23",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Fusió Sevilla\" Italian Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantFusioSevilla23",
+        "undefined" : "Restaurant Fusió Sevilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioMadrid19",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Fusió Madrid\" Italian Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantFusioMadrid19",
+        "undefined" : "Restaurant Fusió Madrid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetCadis17",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Restaurant Gourmet Cadis\" Italian Restaurant."
+      },
+      "labels" : {
+        "IRI-based" : "RestaurantGourmetCadis17",
+        "undefined" : "Restaurant Gourmet Cadis"
+      }
+    } ],
+    "comment" : {
+      "en" : "Restaurant entity that serves italian food."
+    },
+    "id" : "42",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Monument",
+      "en" : "Monument"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcToledo11",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Parc Toledo\" Monument."
+      },
+      "labels" : {
+        "IRI-based" : "ParcToledo11",
+        "undefined" : "Parc Toledo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellToledo10",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Castell Toledo\" Monument."
+      },
+      "labels" : {
+        "IRI-based" : "CastellToledo10",
+        "undefined" : "Castell Toledo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralPamplona9",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Catedral Pamplona\" Monument."
+      },
+      "labels" : {
+        "IRI-based" : "CatedralPamplona9",
+        "undefined" : "Catedral Pamplona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellSevilla2",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Castell Sevilla\" Monument."
+      },
+      "labels" : {
+        "IRI-based" : "CastellSevilla2",
+        "undefined" : "Castell Sevilla"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellCadis15",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Castell Cadis\" Monument."
+      },
+      "labels" : {
+        "IRI-based" : "CastellCadis15",
+        "undefined" : "Castell Cadis"
+      }
+    } ],
+    "comment" : {
+      "en" : "Attraction entity of an historical or cultural structure of public interest."
+    },
+    "id" : "31",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalAttraction",
+      "en" : "Cultural Attraction"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellBarcelona16",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Castell Barcelona\" Cultural Attraction."
+      },
+      "labels" : {
+        "IRI-based" : "CastellBarcelona16",
+        "undefined" : "Castell Barcelona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PalauPamplona13",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Palau Pamplona\" Cultural Attraction."
+      },
+      "labels" : {
+        "IRI-based" : "PalauPamplona13",
+        "undefined" : "Palau Pamplona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellMalaga27",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Castell Màlaga\" Cultural Attraction."
+      },
+      "labels" : {
+        "IRI-based" : "CastellMalaga27",
+        "undefined" : "Castell Màlaga"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PalauBarcelona19",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Palau Barcelona\" Cultural Attraction."
+      },
+      "labels" : {
+        "IRI-based" : "PalauBarcelona19",
+        "undefined" : "Palau Barcelona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcMadrid17",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Parc Madrid\" Cultural Attraction."
+      },
+      "labels" : {
+        "IRI-based" : "ParcMadrid17",
+        "undefined" : "Parc Madrid"
+      }
+    } ],
+    "comment" : {
+      "en" : "Attraction entity with a cultural interest for the public interest."
+    },
+    "id" : "30",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City",
+      "en" : "City"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SantSebastia8",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/San_Sebastián",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "Sant Sebastià City."
+      },
+      "labels" : {
+        "IRI-based" : "SantSebastia8",
+        "undefined" : "Sant Sebastià"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/Málaga",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Malaga City"
+      },
+      "labels" : {
+        "IRI-based" : "Malaga11",
+        "undefined" : "Màlaga"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/Valencia",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "València City."
+      },
+      "labels" : {
+        "IRI-based" : "Valencia2",
+        "undefined" : "València"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "https://dbpedia.org/page/Toledo,_Spain",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Toledo City."
+      },
+      "labels" : {
+        "IRI-based" : "Toledo1",
+        "undefined" : "Toledo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/Cádiz",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Cadis City."
+      },
+      "labels" : {
+        "IRI-based" : "Cadis9",
+        "undefined" : "Cadis"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/Pamplona",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Pamplona City."
+      },
+      "labels" : {
+        "IRI-based" : "Pamplona7",
+        "undefined" : "Pamplona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/Barcelona",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Barcelona City."
+      },
+      "labels" : {
+        "IRI-based" : "Barcelona4",
+        "undefined" : "Barcelona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/Bilbao",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Bilbao City."
+      },
+      "labels" : {
+        "IRI-based" : "Bilbao6",
+        "undefined" : "Bilbao"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "Madrid City."
+      },
+      "labels" : {
+        "IRI-based" : "Madrid3",
+        "undefined" : "Madrid"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/Zaragoza",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Saragossa City."
+      },
+      "labels" : {
+        "IRI-based" : "Saragossa5",
+        "undefined" : "Saragossa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/Seville",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Sevilla City."
+      },
+      "labels" : {
+        "IRI-based" : "Sevilla10",
+        "undefined" : "Sevilla"
+      }
+    } ],
+    "comment" : {
+      "en" : "Geographical place representing a city with name and location."
+    },
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#InterestSite",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InterestSite",
+      "en" : "Interest Site"
+    },
+    "subClasses" : [ "6", "13", "28" ],
+    "comment" : {
+      "en" : "Enity that represents a place, service or event of public interest in a city."
+    },
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "disjointUnion" : [ "65", "0", "24", "87", "81" ],
+    "label" : {
+      "IRI-based" : "Hotel",
+      "en" : "Hotel"
+    },
+    "subClasses" : [ "65", "0", "24", "87", "81" ],
+    "comment" : {
+      "en" : "Enity that represents  type of place that provides accomodations in a city to customers for a price. Its quality is valorated and the services that offers by stars."
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "1",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RuralHotel",
+      "undefined" : "Rural Hotel"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarValencia37",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Del Mar València\" Rural Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelDelMarValencia37",
+        "undefined" : "Hotel Del Mar València"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaPamplona49",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Vista Pamplona\" Rural Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelVistaPamplona49",
+        "undefined" : "Hotel Vista Pamplona"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarMalaga38",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Del Mar Màlaga\" Rural Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelDelMarMalaga38",
+        "undefined" : "Hotel Del Mar Màlaga"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceToledo32",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Palace Toledo\" Rural Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelPalaceToledo32",
+        "undefined" : "Hotel Palace Toledo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolBarcelona33",
+      "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+      "comment" : {
+        "en" : "\"Hotel Sol Barcelona\" Rural Hotel."
+      },
+      "labels" : {
+        "IRI-based" : "HotelSolBarcelona33",
+        "undefined" : "Hotel Sol Barcelona"
+      }
+    } ],
+    "comment" : {
+      "en" : "Hotel enity focused on rural accommodations."
+    },
+    "id" : "81",
+    "superClasses" : [ "1" ]
+  } ],
+  "property" : [ {
+    "id" : "7",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "10",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "15",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "17",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "18",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "19",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "20",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "21",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "22",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "23",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "39",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "44",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "45",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "47",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "48",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "49",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "50",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "51",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "52",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "108",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "109",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "110",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "111",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "112",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "113",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "114",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "115",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "116",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "7"
+  }, {
+    "range" : "9",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "10"
+  }, {
+    "range" : "8",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "15"
+  }, {
+    "range" : "11",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "17"
+  }, {
+    "range" : "8",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "18"
+  }, {
+    "range" : "9",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "19"
+  }, {
+    "range" : "11",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "20"
+  }, {
+    "range" : "16",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "9",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "8",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasEvent",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasEvent",
+      "en" : "has event"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "Represents the relationship between a City and an Event is located in it."
+    },
+    "attributes" : [ "irreflexive", "asymmetric", "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "isLocatedIn",
+      "en" : "is located in"
+    },
+    "domain" : "35",
+    "comment" : {
+      "en" : "Represents the relationship between a place or service and the city it is located in."
+    },
+    "attributes" : [ "irreflexive", "asymmetric", "functional", "object" ],
+    "id" : "34"
+  }, {
+    "range" : "36",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "37"
+  }, {
+    "range" : "40",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "39"
+  }, {
+    "range" : "36",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "44"
+  }, {
+    "range" : "38",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "45"
+  }, {
+    "range" : "36",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "47"
+  }, {
+    "range" : "36",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "48"
+  }, {
+    "range" : "40",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "49"
+  }, {
+    "range" : "46",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "50"
+  }, {
+    "range" : "40",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "range" : "38",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "52"
+  }, {
+    "range" : "4",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
+  }, {
+    "range" : "4",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "54"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasHotel",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasHotel",
+      "en" : "has hotel"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "Represents the relationship between a City and a Hotel is located in it."
+    },
+    "attributes" : [ "irreflexive", "asymmetric", "object" ],
+    "id" : "56"
+  }, {
+    "range" : "6",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "57"
+  }, {
+    "range" : "6",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "58"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "range" : "6",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "60"
+  }, {
+    "range" : "27",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "61"
+  }, {
+    "range" : "27",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
+  }, {
+    "range" : "6",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "63"
+  }, {
+    "range" : "27",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "27",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "66"
+  }, {
+    "range" : "27",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "hasStarRating",
+      "en" : "has star rating"
+    },
+    "cardinality" : "1",
+    "domain" : "1",
+    "comment" : {
+      "en" : "Property that provides a hotel entity its star rating."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasAttraction",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "hasAttraction",
+      "en" : "has attraction"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "Represents the relationship between a City and an Attraction is located in it."
+    },
+    "attributes" : [ "irreflexive", "asymmetric", "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "AveragePrice",
+      "en" : "average price"
+    },
+    "cardinality" : "1",
+    "domain" : "13",
+    "comment" : {
+      "en" : "Property that provides a transport its average price."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "71"
+  }, {
+    "range" : "1",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "isPrividedBy",
+      "en" : "is provided by"
+    },
+    "cardinality" : "1",
+    "domain" : "13",
+    "comment" : {
+      "en" : "Property that provides a transport with its company provider of services."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "hasNightlyPrice",
+      "en" : "has nightly price"
+    },
+    "cardinality" : "1",
+    "domain" : "1",
+    "comment" : {
+      "en" : "Property that provides a hotel entity its nightly price."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasName",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "hasName",
+      "en" : "has name"
+    },
+    "domain" : "74",
+    "comment" : {
+      "en" : "Property that provides an entity its name."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "hasLocation",
+      "en" : "has location"
+    },
+    "cardinality" : "1",
+    "domain" : "26",
+    "comment" : {
+      "en" : "Property that provides a place with its location using latitude and longitude."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "85"
+  }, {
+    "range" : "1",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "86"
+  }, {
+    "range" : "1",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "hasRating",
+      "en" : "has rating"
+    },
+    "domain" : "28",
+    "comment" : {
+      "en" : "Property that provides an entity its rating."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "89"
+  }, {
+    "range" : "13",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "90"
+  }, {
+    "range" : "13",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "91"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "92"
+  }, {
+    "range" : "1",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "93"
+  }, {
+    "range" : "13",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "94"
+  }, {
+    "range" : "35",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasDate",
+      "en" : "has date"
+    },
+    "cardinality" : "1",
+    "domain" : "6",
+    "comment" : {
+      "en" : "Property that provides an event entity its date."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "96"
+  }, {
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "97"
+  }, {
+    "range" : "13",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "98"
+  }, {
+    "range" : "35",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "99"
+  }, {
+    "range" : "28",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "100"
+  }, {
+    "range" : "35",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "101"
+  }, {
+    "range" : "4",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "102"
+  }, {
+    "range" : "4",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "103"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "104"
+  }, {
+    "range" : "28",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRestaurant",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasRestaurant",
+      "en" : "has restaurant"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "Represents the relationship between a City and a Restaurant is located in it."
+    },
+    "attributes" : [ "irreflexive", "asymmetric", "object" ],
+    "id" : "106"
+  }, {
+    "range" : "81",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "107"
+  }, {
+    "range" : "24",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "108"
+  }, {
+    "range" : "65",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "109"
+  }, {
+    "range" : "81",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "110"
+  }, {
+    "range" : "24",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "111"
+  }, {
+    "range" : "81",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "112"
+  }, {
+    "range" : "24",
+    "domain" : "65",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "113"
+  }, {
+    "range" : "24",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "114"
+  }, {
+    "range" : "87",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "115"
+  }, {
+    "range" : "65",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasTransport",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasTransport",
+      "en" : "has transport"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "Represents the relationship between a City and a Transport is located in it."
+    },
+    "attributes" : [ "irreflexive", "asymmetric", "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice",
+    "baseIri" : "http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology",
+    "range" : "75",
+    "label" : {
+      "IRI-based" : "averageMenuPrice",
+      "en" : "average menu price"
+    },
+    "cardinality" : "1",
+    "domain" : "4",
+    "comment" : {
+      "en" : "Property that provides a restaurant its menu average price."
+    },
+    "attributes" : [ "functional", "datatype" ],
+    "id" : "118"
+  } ]
+}

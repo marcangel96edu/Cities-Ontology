@@ -1,0 +1,3006 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#"
+     xml:base="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:CitiesOntology="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology">
+        <rdfs:comment xml:lang="en">This ontology models the knowledge related to cities and their tourist and business attractions. It allows the description of localities, services, and events in each city.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#sameAs -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasAttraction -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasAttraction">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction"/>
+        <rdfs:comment xml:lang="en">Represents the relationship between a City and an Attraction is located in it.</rdfs:comment>
+        <rdfs:label xml:lang="en">has attraction</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasEvent -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasEvent">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"/>
+        <rdfs:comment xml:lang="en">Represents the relationship between a City and an Event is located in it.</rdfs:comment>
+        <rdfs:label xml:lang="en">has event</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasHotel -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasHotel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"/>
+        <rdfs:comment xml:lang="en">Represents the relationship between a City and a Hotel is located in it.</rdfs:comment>
+        <rdfs:label xml:lang="en">has hotel</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRestaurant -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRestaurant">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"/>
+        <rdfs:comment xml:lang="en">Represents the relationship between a City and a Restaurant is located in it.</rdfs:comment>
+        <rdfs:label xml:lang="en">has restaurant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasTransport -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasTransport">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"/>
+        <rdfs:comment xml:lang="en">Represents the relationship between a City and a Transport is located in it.</rdfs:comment>
+        <rdfs:label xml:lang="en">has transport</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#InterestSite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <rdfs:comment xml:lang="en">Represents the relationship between a place or service and the city it is located in.</rdfs:comment>
+        <rdfs:label xml:lang="en">is located in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Property that provides a transport its average price.</rdfs:comment>
+        <rdfs:label xml:lang="en">average price</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Property that provides a restaurant its menu average price.</rdfs:comment>
+        <rdfs:label xml:lang="en">average menu price</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Property that provides an event entity its date.</rdfs:comment>
+        <rdfs:label xml:lang="en">has date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Property that provides a place with its location using latitude and longitude.</rdfs:comment>
+        <rdfs:label xml:lang="en">has location</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Property that provides an entity its name.</rdfs:comment>
+        <rdfs:label xml:lang="en">has name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Property that provides a hotel entity its nightly price.</rdfs:comment>
+        <rdfs:label xml:lang="en">has nightly price</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRating">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Place"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Property that provides an entity its rating.</rdfs:comment>
+        <rdfs:label xml:lang="en">has rating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Property that provides a hotel entity its star rating.</rdfs:comment>
+        <rdfs:label xml:lang="en">has star rating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Property that provides a transport with its company provider of services.</rdfs:comment>
+        <rdfs:label xml:lang="en">is provided by</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"/>
+        <rdfs:comment xml:lang="en">Restaurant entity andalusian food.</rdfs:comment>
+        <rdfs:label xml:lang="en">Andalusian Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Place"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park"/>
+        </owl:disjointUnionOf>
+        <rdfs:comment xml:lang="en">In principle any thing can be a Tourist Attraction located in a city, from a Museums and Monuments to a Parks. Its quality is rated.</rdfs:comment>
+        <rdfs:label xml:lang="en">Attraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction"/>
+        <rdfs:comment xml:lang="en">Attraction entity reperesenting a natural shoreline by the sea.</rdfs:comment>
+        <rdfs:label xml:lang="en">Beach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"/>
+        <rdfs:comment xml:lang="en">Hotel enity focused on beach accommodations.</rdfs:comment>
+        <rdfs:label xml:lang="en">Beach Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"/>
+        <rdfs:comment xml:lang="en">Transport entity that provides bus service for the public.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"/>
+        <rdfs:comment xml:lang="en">Hotel enity focused on business accommodations.</rdfs:comment>
+        <rdfs:label xml:lang="en">Business Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:comment xml:lang="en">Geographical place representing a city with name and location.</rdfs:comment>
+        <rdfs:label xml:lang="en">City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction"/>
+        <rdfs:comment xml:lang="en">Attraction entity with a cultural interest for the public interest.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cultural Attraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"/>
+        <rdfs:comment xml:lang="en">Event entity focused on cultural activities.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cultural Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasDate"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#InterestSite"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent"/>
+        </owl:disjointUnionOf>
+        <rdfs:comment xml:lang="en">Enity that represents an occasion of public interest in a city at a specific date.</rdfs:comment>
+        <rdfs:label xml:lang="en">Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"/>
+        <rdfs:comment xml:lang="en">Event entity focused on gastronomy.</rdfs:comment>
+        <rdfs:label xml:lang="en">Gastronomic Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasStarRating"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Place"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel"/>
+        </owl:disjointUnionOf>
+        <rdfs:comment xml:lang="en">Enity that represents  type of place that provides accomodations in a city to customers for a price. Its quality is valorated and the services that offers by stars.</rdfs:comment>
+        <rdfs:label xml:lang="en">Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#InterestSite -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#InterestSite">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:comment xml:lang="en">Enity that represents a place, service or event of public interest in a city.</rdfs:comment>
+        <rdfs:label xml:lang="en">Interest Site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"/>
+        <rdfs:comment xml:lang="en">Restaurant entity that serves italian food.</rdfs:comment>
+        <rdfs:label xml:lang="en">Italian Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"/>
+        <rdfs:comment xml:lang="en">Restaurant entity that serves japanese food.</rdfs:comment>
+        <rdfs:label xml:lang="en">Japanese Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"/>
+        <rdfs:comment xml:lang="en">Hotel enity focused on luxury accommodations.</rdfs:comment>
+        <rdfs:label xml:lang="en">Luxury Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"/>
+        <rdfs:comment xml:lang="en">Restaurant entity  that serves mediterranean food.</rdfs:comment>
+        <rdfs:label xml:lang="en">Mediterranean Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"/>
+        <rdfs:comment xml:lang="en">Transport entity that provides metro service for the public.</rdfs:comment>
+        <rdfs:label xml:lang="en">Metro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"/>
+        <rdfs:comment xml:lang="en">Restaurant entity that serves mexican food.</rdfs:comment>
+        <rdfs:label xml:lang="en">Mexican Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction"/>
+        <rdfs:comment xml:lang="en">Attraction entity of an historical or cultural structure of public interest.</rdfs:comment>
+        <rdfs:label xml:lang="en">Monument</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction"/>
+        <rdfs:comment xml:lang="en">Attraction entity that focuses on the exhibition of public interest objects.</rdfs:comment>
+        <rdfs:label xml:lang="en">Museum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"/>
+        <rdfs:comment xml:lang="en">Event entity focused on music.</rdfs:comment>
+        <rdfs:label xml:lang="en">Music Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction"/>
+        <rdfs:comment xml:lang="en">Attraction entity of a large green public space for outdoor activities or nature enjoyment.</rdfs:comment>
+        <rdfs:label xml:lang="en">Park</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Place -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Place">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#InterestSite"/>
+        <rdfs:comment xml:lang="en">Entities that have a somewhat fixed, physical extension.</rdfs:comment>
+        <rdfs:label xml:lang="en">Place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"/>
+        <rdfs:comment xml:lang="en">Transport entity that provides bicycles to be used by the public.</rdfs:comment>
+        <rdfs:label xml:lang="en">Public Bicycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#averageMenuPrice"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Place"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant"/>
+        </owl:disjointUnionOf>
+        <rdfs:comment xml:lang="en">Type of place entity that provides food and beverages for customers at a city for a price. Its quality is valorated.</rdfs:comment>
+        <rdfs:label xml:lang="en">Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"/>
+        <rdfs:comment xml:lang="en">Hotel enity focused on rural accommodations.</rdfs:comment>
+        <rdfs:label>Rural Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"/>
+        <rdfs:comment xml:lang="en">Event entity focused on sport activities.</rdfs:comment>
+        <rdfs:label xml:lang="en">Sport Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"/>
+        <rdfs:comment xml:lang="en">Transport entity that provides taxi service for the public.</rdfs:comment>
+        <rdfs:label xml:lang="en">Taxi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"/>
+        <rdfs:comment xml:lang="en">Event entity focused on technology.</rdfs:comment>
+        <rdfs:label xml:lang="en">Technological Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"/>
+        <rdfs:comment xml:lang="en">Transport entity that provides tram service for the public.</rdfs:comment>
+        <rdfs:label xml:lang="en">Tram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AveragePrice"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isPrividedBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#InterestSite"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram"/>
+        </owl:disjointUnionOf>
+        <rdfs:comment xml:lang="en">Service entity that provides a method of transportation of people located in a city at a price.</rdfs:comment>
+        <rdfs:label xml:lang="en">Transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"/>
+        <rdfs:comment xml:lang="en">Hotel enity focused on turistic accommodations.</rdfs:comment>
+        <rdfs:label xml:lang="en">Turistic Hotel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <hasLocation>41.3874,2.1686</hasLocation>
+        <sameAs xml:lang="en">http://dbpedia.org/resource/Barcelona</sameAs>
+        <rdfs:comment xml:lang="en">Barcelona City.</rdfs:comment>
+        <rdfs:label>Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <hasLocation>43.2630,-2.9350</hasLocation>
+        <sameAs xml:lang="en">http://dbpedia.org/resource/Bilbao</sameAs>
+        <rdfs:comment xml:lang="en">Bilbao City.</rdfs:comment>
+        <rdfs:label>Bilbao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusBarcelona9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusBarcelona9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.72</AveragePrice>
+        <isPrividedBy>Metro Barcelona</isPrividedBy>
+        <rdfs:comment xml:lang="en">&quot;Bus Barcelona&quot; Transport.</rdfs:comment>
+        <rdfs:label>Bus Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusBilbao19 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusBilbao19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.58</AveragePrice>
+        <isPrividedBy>City Bilbao</isPrividedBy>
+        <rdfs:comment xml:lang="en">Bus Bilbao Transport.</rdfs:comment>
+        <rdfs:label>Bus Bilbao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusSaragossa4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusSaragossa4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.79</AveragePrice>
+        <isPrividedBy>City Saragossa</isPrividedBy>
+        <rdfs:comment xml:lang="en">&quot;Bus Saragossa&quot; Transport.</rdfs:comment>
+        <rdfs:label>Bus Saragossa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusSevilla10 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusSevilla10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.48</AveragePrice>
+        <isPrividedBy>Trans Sevilla</isPrividedBy>
+        <rdfs:comment xml:lang="en">Bus Sevilla Transport.</rdfs:comment>
+        <rdfs:label>Bus Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusSevilla12 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusSevilla12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.03</AveragePrice>
+        <isPrividedBy>City Sevilla</isPrividedBy>
+        <rdfs:comment xml:lang="en">Bus Sevilla Transport.</rdfs:comment>
+        <rdfs:label>Bus Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <hasLocation>36.5297,-6.2920</hasLocation>
+        <sameAs xml:lang="en">http://dbpedia.org/resource/Cádiz</sameAs>
+        <rdfs:comment xml:lang="en">Cadis City.</rdfs:comment>
+        <rdfs:label>Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalBilbao26 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalBilbao26">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"/>
+        <hasDate>2024-11-12</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Carnaval Bilbao&quot; Music Event.</rdfs:comment>
+        <rdfs:label>Carnaval Bilbao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalCadis3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalCadis3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <hasDate>2024-04-19</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Carnaval Cadis&quot; Sport Event.</rdfs:comment>
+        <rdfs:label>Carnaval Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalMalaga25 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalMalaga25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"/>
+        <hasDate>2024-12-24</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Carnaval Màlaga&quot; Technological Event.</rdfs:comment>
+        <rdfs:label>Carnaval Màlaga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalSaragossa34 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalSaragossa34">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"/>
+        <hasDate>2024-02-19</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Carnaval Saragossa&quot; Gastronomic Hotel.</rdfs:comment>
+        <rdfs:label>Carnaval Saragossa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalSevilla20 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalSevilla20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <hasDate>2024-02-02</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Carnaval Sevilla&quot; Cultural Event.</rdfs:comment>
+        <rdfs:label>Carnaval Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalValencia17 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CarnavalValencia17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"/>
+        <hasDate>2024-01-28</hasDate>
+        <rdfs:comment>&quot;Carnaval València&quot; Music Event.</rdfs:comment>
+        <rdfs:label>Carnaval València</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellBarcelona16 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellBarcelona16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Castell Barcelona&quot; Cultural Attraction.</rdfs:comment>
+        <rdfs:label>Castell Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellCadis15 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellCadis15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Castell Cadis&quot; Monument.</rdfs:comment>
+        <rdfs:label>Castell Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellMalaga27 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellMalaga27">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Castell Màlaga&quot; Cultural Attraction.</rdfs:comment>
+        <rdfs:label>Castell Màlaga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellPamplona14 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellPamplona14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.9</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Castell Pamplona&quot; Beach.</rdfs:comment>
+        <rdfs:label>Castell Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellSantSebastia29 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellSantSebastia29">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SantSebastia8"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Castell Sant Sebastià&quot; Museum.</rdfs:comment>
+        <rdfs:label>Castell Sant Sebastià</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellSaragossa1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellSaragossa1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Castell Saragossa&quot; Museum.</rdfs:comment>
+        <rdfs:label>Castell Saragossa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellSevilla2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellSevilla2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Castell Sevilla&quot; Monument.</rdfs:comment>
+        <rdfs:label>Castell Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellToledo10 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CastellToledo10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Castell Toledo&quot; Monument.</rdfs:comment>
+        <rdfs:label>Castell Toledo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralBarcelona20 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralBarcelona20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Catedral Barcelona&quot; Beach.</rdfs:comment>
+        <rdfs:label>Catedral Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralCadis12 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralCadis12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Catedral Cadis&quot; Park.</rdfs:comment>
+        <rdfs:label>Catedral Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralMalaga21 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralMalaga21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Catedral Màlaga&quot; Park.</rdfs:comment>
+        <rdfs:label>Catedral Màlaga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralPamplona9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralPamplona9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Catedral Pamplona&quot; Monument.</rdfs:comment>
+        <rdfs:label>Catedral Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralSaragossa26 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralSaragossa26">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Catedral Saragossa&quot; Beach.</rdfs:comment>
+        <rdfs:label>Catedral Saragossa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralSevilla2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CatedralSevilla2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Catedral Sevilla&quot; Beach.</rdfs:comment>
+        <rdfs:label>Catedral Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertPamplona32 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertPamplona32">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <hasDate>2024-07-04</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Concert Pamplona&quot; Technological Event.</rdfs:comment>
+        <rdfs:label>Concert Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertSevilla16 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertSevilla16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <hasDate>2024-02-22</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Concert Sevilla&quot; Technological Event.</rdfs:comment>
+        <rdfs:label>Concert Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertToledo35 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertToledo35">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"/>
+        <hasDate>2024-12-06</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Concert Toledo&quot; Gastronomic Event.</rdfs:comment>
+        <rdfs:label>Concert Toledo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertValencia19 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ConcertValencia19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"/>
+        <hasDate>2024-02-07</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Concert València&quot; Music Event.</rdfs:comment>
+        <rdfs:label>Concert València</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresBarcelona10 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresBarcelona10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"/>
+        <hasDate>2024-06-28</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Congrés Barcelona&quot; Gastronomic Hotel.</rdfs:comment>
+        <rdfs:label>Congrés Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresBilbao3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresBilbao3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"/>
+        <hasDate>2024-12-01</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Congrés Bilbao&quot; Cultural Event.</rdfs:comment>
+        <rdfs:label>Congrés Bilbao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresCadis1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresCadis1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <hasDate>2024-06-02</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Congrés Cadis&quot; Sport Event.</rdfs:comment>
+        <rdfs:label>Congrés Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresSantSebastia9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresSantSebastia9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SantSebastia8"/>
+        <hasDate>2024-06-04</hasDate>
+        <rdfs:comment>&quot;Congrés Sant Sebastià&quot; Music Event.</rdfs:comment>
+        <rdfs:label>Congrés Sant Sebastià</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresSevilla44 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresSevilla44">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <hasDate>2024-10-24</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Congrés Sevilla&quot; Gastronomic Event.</rdfs:comment>
+        <rdfs:label>Congrés Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresToledo14 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresToledo14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"/>
+        <hasDate>2024-12-14</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Congrés Toledo&quot; Cultural Event.</rdfs:comment>
+        <rdfs:label>Congrés Toledo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresValencia46 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CongresValencia46">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"/>
+        <hasDate>2024-10-24</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Congrés València&quot; Music Event.</rdfs:comment>
+        <rdfs:label>Congrés València</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalMadrid7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalMadrid7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"/>
+        <hasDate>2024-07-21</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Festival Madrid&quot; Sport Event.</rdfs:comment>
+        <rdfs:label>Festival Madrid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalMalaga59 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalMalaga59">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"/>
+        <hasDate>2024-03-11</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Festival Màlaga&quot; Technological Event.</rdfs:comment>
+        <rdfs:label>Festival Màlaga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalSaragossa15 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalSaragossa15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"/>
+        <hasDate>2024-09-01</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Festival Saragossa&quot; Gastronomic Event.</rdfs:comment>
+        <rdfs:label>Festival Saragossa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalSevilla22 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalSevilla22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <hasDate>2024-08-16</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Festival Sevilla&quot; Cultural Event.</rdfs:comment>
+        <rdfs:label>Festival Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalToledo28 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FestivalToledo28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"/>
+        <hasDate>2024-12-19</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Festival Toledo&quot; Technological Event.</rdfs:comment>
+        <rdfs:label>Festival Toledo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FiraBarcelona12 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FiraBarcelona12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"/>
+        <hasDate>2024-09-21</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Fira Barcelona&quot; Cultural Event.</rdfs:comment>
+        <rdfs:label>Fira Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FiraSevilla21 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FiraSevilla21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <hasDate>2024-06-15</hasDate>
+        <rdfs:comment>&quot;Fira Sevilla&quot; Sport Event.</rdfs:comment>
+        <rdfs:label>Fira Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FiraToledo5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#FiraToledo5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"/>
+        <hasDate>2024-08-26</hasDate>
+        <rdfs:comment xml:lang="en">&quot;Fira Toledo&quot; Sport Event.</rdfs:comment>
+        <rdfs:label>Fira Toledo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HootelVistaCadis8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HootelVistaCadis8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Vista Cadis&quot; Beach Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Vista Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarBarcelona34 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarBarcelona34">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Del Mar Barcelona&quot; Tursitic Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Del Mar Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarMalaga38 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarMalaga38">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">196</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Del Mar Màlaga&quot; Rural Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Del Mar Màlaga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarPamplona35 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarPamplona35">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Del Mar Pamplona&quot; Tursitic Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Del Mar Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarSantSebastia28 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarSantSebastia28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SantSebastia8"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Del Mar Sant Sebastià&quot; Luxury Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Del Mar Sant Sebastià</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarToledo17 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarToledo17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">145</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Del Mar Toledo&quot; Beach Hotel</rdfs:comment>
+        <rdfs:label>Hotel Del Mar Toledo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarValencia37 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelDelMarValencia37">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">139</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Del Mar València&quot; Rural Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Del Mar València</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceCadis15 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceCadis15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">287</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Palace Cadis&quot; Business Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Palace Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceMadrid14 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceMadrid14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasStarRating>
+        <rdfs:comment>&quot;Hotel Palace Madrid&quot; Business Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Palace Madrid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceSaragossa5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceSaragossa5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Palace Saragossa&quot; Luxury Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Palace Saragossa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceToledo32 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelPalaceToledo32">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Palace Toledo&quot; Rural Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Palace Toledo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalBarcelona9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalBarcelona9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">252</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Royal Barcelona&quot; Beach Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Royal Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalMadrid11 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalMadrid11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">146</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Royal Madrid&quot; Business Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Royal Madrid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalPamplona2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalPamplona2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.9</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasStarRating>
+        <rdfs:comment>&quot;Hotel Royal Pamplona&quot; Luxury Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Royal Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalSantSebastia6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalSantSebastia6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SantSebastia8"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">245</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Royal Sant Sebastià&quot; Business Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Royal Sant Sebastià</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalSevilla25 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelRoyalSevilla25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Royal Sevilla&quot; Turistic Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Royal Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolBarcelona33 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolBarcelona33">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">189</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Sol Barcelona&quot; Rural Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Sol Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolBilbao19 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolBilbao19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">290</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Sol Bilbao&quot; Beach Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Sol Bilbao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolCadis26 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolCadis26">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Sol Cadis&quot; Turistic Hostel.</rdfs:comment>
+        <rdfs:label>Hotel Sol Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolSaragossa39 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolSaragossa39">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">262</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasStarRating>
+        <rdfs:comment>&quot;Hotel Sol Saragossa&quot; Luxury Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Sol Saragossa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolValencia21 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelSolValencia21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">291</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Sol València&quot; Luxury Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Sol València</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaMadrid31 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaMadrid31">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Vista Madrid&quot; Turistic Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Vista Madrid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaMalaga22 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaMalaga22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">238</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Vista Màlaga&quot; Business Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Vista Màlaga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaPamplona49 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaPamplona49">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Vista Pamplona&quot; Rural Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Vista Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaSevilla1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#HotelVistaSevilla1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <hasNightlyPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">278</hasNightlyPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</hasRating>
+        <hasStarRating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasStarRating>
+        <rdfs:comment xml:lang="en">&quot;Hotel Vista Sevilla&quot; Beach Hotel.</rdfs:comment>
+        <rdfs:label>Hotel Vista Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <hasLocation>40.4168,-3.7038</hasLocation>
+        <rdfs:comment xml:lang="en">Madrid City.</rdfs:comment>
+        <rdfs:label>Madrid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <hasLocation>36.7213,-4.4210</hasLocation>
+        <sameAs xml:lang="en">http://dbpedia.org/resource/Málaga</sameAs>
+        <rdfs:comment xml:lang="en">Malaga City</rdfs:comment>
+        <rdfs:label>Màlaga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroBilbao18 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroBilbao18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.84</AveragePrice>
+        <isPrividedBy>Metro Bilbao</isPrividedBy>
+        <rdfs:comment>Metro Bilbao Transport.</rdfs:comment>
+        <rdfs:label>Metro Bilbao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroCadis13 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroCadis13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.87</AveragePrice>
+        <isPrividedBy>City Cadis</isPrividedBy>
+        <rdfs:comment>Metro Cadis Transport.</rdfs:comment>
+        <rdfs:label>Metro Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroCadis5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroCadis5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.63</AveragePrice>
+        <isPrividedBy>Movi Cadis</isPrividedBy>
+        <rdfs:comment xml:lang="en">Metro Cadis Transport.</rdfs:comment>
+        <rdfs:label>Metro Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroMadrid1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroMadrid1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.85</AveragePrice>
+        <isPrividedBy>Urban Madrid</isPrividedBy>
+        <rdfs:comment xml:lang="en">Metro Madrid Transport</rdfs:comment>
+        <rdfs:label>Metro Madrid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroPamplona21 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MetroPamplona21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.55</AveragePrice>
+        <isPrividedBy>City Pamplona</isPrividedBy>
+        <rdfs:comment xml:lang="en">Metro Pamplona Transport.</rdfs:comment>
+        <rdfs:label>Metro Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MuseuBarcelona33 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MuseuBarcelona33">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Museu Barcelona&quot; Museum.</rdfs:comment>
+        <rdfs:label>Museu Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MuseuMadrid4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MuseuMadrid4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Museu Madrid&quot; Museum.</rdfs:comment>
+        <rdfs:label>Museu Madrid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MuseuMalaga18 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MuseuMalaga18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Museu Màlaga&quot; Park.</rdfs:comment>
+        <rdfs:label>Museu Màlaga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PalauBarcelona19 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PalauBarcelona19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Palau Barcelona&quot; Cultural Attraction.</rdfs:comment>
+        <rdfs:label>Palau Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PalauBilbao6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PalauBilbao6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Museum"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Palau Bilbao&quot; Museum.</rdfs:comment>
+        <rdfs:label>Palau Bilbao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PalauPamplona13 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PalauPamplona13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Palau Pamplona&quot; Cultural Attraction.</rdfs:comment>
+        <rdfs:label>Palau Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <hasLocation>42.8169,-1.6444</hasLocation>
+        <sameAs xml:lang="en">http://dbpedia.org/resource/Pamplona</sameAs>
+        <rdfs:comment xml:lang="en">Pamplona City.</rdfs:comment>
+        <rdfs:label>Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcBarcelona43 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcBarcelona43">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Barcelona4"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Parc Barcelona&quot; Park.</rdfs:comment>
+        <rdfs:label>Parc Barcelona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcBilbao25 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcBilbao25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Beach"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</hasRating>
+        <rdfs:comment>&quot;Parc Bilbao&quot; Beach.</rdfs:comment>
+        <rdfs:label>Parc Bilbao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcMadrid17 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcMadrid17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalAttraction"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Parc Madrid&quot; Cultural Attraction.</rdfs:comment>
+        <rdfs:label>Parc Madrid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcSantSebastia8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcSantSebastia8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Park"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SantSebastia8"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Parc Sant Sebastià&quot; Park.</rdfs:comment>
+        <rdfs:label>Parc Sant Sebastià</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcToledo11 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ParcToledo11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Monument"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"/>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Parc Toledo&quot; Monument.</rdfs:comment>
+        <rdfs:label>Parc Toledo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycleBilbao17 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycleBilbao17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.58</AveragePrice>
+        <isPrividedBy>Urban Bilbao</isPrividedBy>
+        <rdfs:comment xml:lang="en">Public Bicycle Bilbao Transport</rdfs:comment>
+        <rdfs:label>Public Bicycle Bilbao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycleMadrid8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycleMadrid8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.32</AveragePrice>
+        <isPrividedBy>City Madrid</isPrividedBy>
+        <rdfs:comment xml:lang="en">Public Bicycle Madrid Transport.</rdfs:comment>
+        <rdfs:label>Public Bicycle Madrid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicyclePamplona23 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicyclePamplona23">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.83</AveragePrice>
+        <isPrividedBy>Movi Pamplona</isPrividedBy>
+        <rdfs:comment xml:lang="en">Public Bicycle Pamplona Transport.</rdfs:comment>
+        <rdfs:label>Public Bicycle Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicyclePamplona45 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicyclePamplona45">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.48</AveragePrice>
+        <isPrividedBy>Metro Pamplona</isPrividedBy>
+        <rdfs:comment xml:lang="en">Public Bicycle Pamplona Transport.</rdfs:comment>
+        <rdfs:label>Public Bicycle Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicyclePamplona6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicyclePamplona6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.48</AveragePrice>
+        <isPrividedBy>Trans Pamplona</isPrividedBy>
+        <rdfs:comment xml:lang="en">Public Bicycle Pamplona Transport.</rdfs:comment>
+        <rdfs:label>Public Bicycle Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaCadis53 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaCadis53">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Delicia Cadis&quot; Mediterranean Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Delicia Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaMadrid21 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaMadrid21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Delicia Madrid&quot; Mexican Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Delicia Madrid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaMalaga4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaMalaga4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Delicia Màlaga&quot; Japanese Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Delicia Màlaga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaPamplona30 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaPamplona30">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Delicia Pamplona&quot; Andalusian Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Delicia Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaSaragossa13 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaSaragossa13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Delicia Saragossa&quot; Japanese Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Delicia Saragossa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaSevilla34 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaSevilla34">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Delicia Sevilla&quot; Mexican Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Delicia Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaValencia29 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantDeliciaValencia29">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Delicia València&quot; Mediterranean Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Delicia València</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioCadis28 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioCadis28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Fusió Cadis&quot; Mexican Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Fusió Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioMadrid19 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioMadrid19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Fusió Madrid&quot; Italian Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Fusió Madrid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioPamplona16 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioPamplona16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Fusió Pamplona&quot; Andalusian Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Fusió Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioSevilla23 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioSevilla23">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Fusió Sevilla&quot; Italian Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Fusió Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioValencia3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantFusioValencia3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Fusió València&quot; Andalusian Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Fusió València</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetCadis17 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetCadis17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Gourmet Cadis&quot; Italian Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Gourmet Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetMadrid2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetMadrid2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Gourmet Madrid&quot; Japanese Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Gourmet Madrid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetMalaga20 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetMalaga20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Gourmet Màlaga&quot; Japoanese Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Gourmet Màlaga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetPamplona26 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetPamplona26">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Gourmet Pamplona&quot; Italian Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Gourmet Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetSaragossa7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetSaragossa7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Gourmet Saragossa&quot; Andalusian Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Gourmet Saragossa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetSevilla24 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetSevilla24">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#AndalusianRestaruant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Gourmet Sevilla&quot; Andalusian Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Gourmet Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetToledo8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantGourmetToledo8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#JapaneseRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Gourmet Toledo&quot; Japanese Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Gourmet Toledo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborCadis12 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborCadis12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.9</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Sabor Cadis&quot; Mexican Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Sabor Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborMalaga49 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborMalaga49">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Sabor Màlaga&quot; Mediterranen Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Sabor Màlaga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborSevilla6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborSevilla6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#ItalianRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Sabor Sevilla&quot; Italian Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Sabor Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborValencia37 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantSaborValencia37">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Sabor València&quot; Mediterranean Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Sabor València</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantTradicioMadrid56 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantTradicioMadrid56">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MediterraneanRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Madrid3"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Tradició Madrid&quot; Mediterranean Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Tradició Madrid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantTradicioToledo1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RestaurantTradicioToledo1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MexicanRestaurant"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"/>
+        <averageMenuPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</averageMenuPrice>
+        <hasRating rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</hasRating>
+        <rdfs:comment xml:lang="en">&quot;Restaurant Tradició Toledo&quot; Mexican Restaurant.</rdfs:comment>
+        <rdfs:label>Restaurant Tradició Toledo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SantSebastia8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SantSebastia8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <hasLocation>43.3183,-1.9812</hasLocation>
+        <sameAs xml:lang="en">http://dbpedia.org/resource/San_Sebastián</sameAs>
+        <rdfs:comment>Sant Sebastià City.</rdfs:comment>
+        <rdfs:label>Sant Sebastià</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <hasLocation>41.6488,-0.8891</hasLocation>
+        <sameAs xml:lang="en">http://dbpedia.org/resource/Zaragoza</sameAs>
+        <rdfs:comment xml:lang="en">Saragossa City.</rdfs:comment>
+        <rdfs:label>Saragossa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Sevilla10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <hasLocation>37.3886,-5.9823</hasLocation>
+        <sameAs xml:lang="en">http://dbpedia.org/resource/Seville</sameAs>
+        <rdfs:comment xml:lang="en">Sevilla City.</rdfs:comment>
+        <rdfs:label>Sevilla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiBilbao2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiBilbao2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.75</AveragePrice>
+        <isPrividedBy>Trans Bilbao</isPrividedBy>
+        <rdfs:comment xml:lang="en">Taxi Bilbao Transport.</rdfs:comment>
+        <rdfs:label>Taxi Bilbao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiBilbao20 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiBilbao20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bilbao6"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.2</AveragePrice>
+        <isPrividedBy>Bilbao</isPrividedBy>
+        <rdfs:comment xml:lang="en">Taxi Bilbao Transport.</rdfs:comment>
+        <rdfs:label>Taxi Bilbao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiCadis7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiCadis7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</AveragePrice>
+        <isPrividedBy>Metro Cadis</isPrividedBy>
+        <rdfs:comment xml:lang="en">Taxi Cadis Transport.</rdfs:comment>
+        <rdfs:label>Taxi Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiPamplona14 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiPamplona14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Pamplona7"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.11</AveragePrice>
+        <isPrividedBy>Movi Pamplona</isPrividedBy>
+        <rdfs:comment xml:lang="en">Taxi Pamplona Transport.</rdfs:comment>
+        <rdfs:label>Taxi Pamplona</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiSaragossa25 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TaxiSaragossa25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.04</AveragePrice>
+        <isPrividedBy>Metro Saragossa</isPrividedBy>
+        <rdfs:comment xml:lang="en">Taxi Saragossa Transporte</rdfs:comment>
+        <rdfs:label>Taxi Saragossa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <hasLocation>39.8628,-4.0273</hasLocation>
+        <sameAs xml:lang="en">https://dbpedia.org/page/Toledo,_Spain</sameAs>
+        <rdfs:comment xml:lang="en">Toledo City.</rdfs:comment>
+        <rdfs:label>Toledo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramCadis15 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramCadis15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Cadis9"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.93</AveragePrice>
+        <isPrividedBy>Movi Cadis</isPrividedBy>
+        <rdfs:comment xml:lang="en">Tram Cadis Transport.</rdfs:comment>
+        <rdfs:label>Tram Cadis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramMalaga16 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramMalaga16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Malaga11"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.66</AveragePrice>
+        <isPrividedBy>City Màlaga</isPrividedBy>
+        <rdfs:comment xml:lang="en">Tram Màlaga Transport.</rdfs:comment>
+        <rdfs:label>Tram Màlaga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramSaragossa22 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramSaragossa22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Saragossa5"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.11</AveragePrice>
+        <isPrividedBy>Urban Saragossa</isPrividedBy>
+        <rdfs:comment xml:lang="en">Tram Saragossa Transport.</rdfs:comment>
+        <rdfs:label>Tram Saragossa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramToledo3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramToledo3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Toledo1"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.61</AveragePrice>
+        <isPrividedBy>Trans Toledo</isPrividedBy>
+        <rdfs:comment xml:lang="en">Tram Toledo Transport</rdfs:comment>
+        <rdfs:label>Tram Toledo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramValencia11 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TramValencia11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram"/>
+        <isLocatedIn rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2"/>
+        <AveragePrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.05</AveragePrice>
+        <isPrividedBy>Trans València</isPrividedBy>
+        <rdfs:comment xml:lang="en">Tram València Transport.</rdfs:comment>
+        <rdfs:label>Tram València</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Valencia2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+        <hasLocation>39.4699,-0.3763</hasLocation>
+        <sameAs xml:lang="en">http://dbpedia.org/resource/Valencia</sameAs>
+        <rdfs:comment xml:lang="en">València City.</rdfs:comment>
+        <rdfs:label>València</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BeachHotel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#BusinessHotel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#LuxuryHotel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#RuralHotel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TuristicHotel"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Bus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Metro"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#PublicBicycle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Taxi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Tram"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#CulturalEvent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#GastronomicEvent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#MusicEvent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#SportEvent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#TechnologicalEvent"/>
+        </owl:members>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="urn:swrl:var#a">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#c">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#e">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#h">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#r">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#t">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Transport"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#c"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasTransport"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#t"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Attraction"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#a"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#a"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#c"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasAttraction"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#a"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Event"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#e"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#e"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#c"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasEvent"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#e"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Hotel"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#c"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasHotel"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#h"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#Restaurant"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#City"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#isLocatedIn"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#c"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasRestaurant"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#c"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#r"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
