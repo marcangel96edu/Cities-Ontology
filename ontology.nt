@@ -1,5 +1,6 @@
 <http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology models the knowledge related to cities and their tourist and business attractions. It allows the description of localities, services, and events in each city."@en .
+<http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology> <http://www.w3.org/2000/01/rdf-schema#label> "Cities Ontology"@en .
 # 
 # 
 # #################################################################
@@ -130,13 +131,6 @@ _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that provides a place with its location using latitude and longitude."@en .
 <http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#label> "has location"@en .
-# 
-# http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasName
-<http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasName> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that provides an entity its name."@en .
-<http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasName> <http://www.w3.org/2000/01/rdf-schema#label> "has name"@en .
 # 
 # http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice
 <http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .

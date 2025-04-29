@@ -7,7 +7,8 @@
 @base <http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#> .
 
 <http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology> rdf:type owl:Ontology ;
-                                                                     rdfs:comment "This ontology models the knowledge related to cities and their tourist and business attractions. It allows the description of localities, services, and events in each city."@en .
+                                                                     rdfs:comment "This ontology models the knowledge related to cities and their tourist and business attractions. It allows the description of localities, services, and events in each city."@en ;
+                                                                     rdfs:label "Cities Ontology"@en .
 
 #################################################################
 #    Annotation properties
@@ -130,14 +131,6 @@
              rdfs:range xsd:string ;
              rdfs:comment "Property that provides a place with its location using latitude and longitude."@en ;
              rdfs:label "has location"@en .
-
-
-###  http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasName
-:hasName rdf:type owl:DatatypeProperty ,
-                  owl:FunctionalProperty ;
-         rdfs:range xsd:string ;
-         rdfs:comment "Property that provides an entity its name."@en ;
-         rdfs:label "has name"@en .
 
 
 ###  http://www.semanticweb.org/marca/ontologies/2025/3/CitiesOntology#hasNightlyPrice
